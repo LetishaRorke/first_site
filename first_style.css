@@ -1,0 +1,44 @@
+body{
+			text-align: center;
+			background: url("https://scontent-a.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1238908_10153222554056165_8114019772388978336_n.jpg?oh=745dc9f7f594d9b36956246105f2af33&oe=54E89EB6");
+			background-size: cover;
+			background-position: center;
+			color: black;
+			position: center;
+			font-family: helvetica;
+		}
+
+		h1{
+			color: white;
+			font-size: 28px;
+			padding: 40px
+		}
+
+		h2#Languages_title{color:yellow;
+			}
+			.Language_item{color:white;
+			}
+
+		h3{
+			color: white;
+			background-color: green;
+		}
+
+		p {
+			font-family: 'Arial';
+			font-size: 22px;
+			background-color: yellow;
+  	}
+  	
+  	input[type="email"] {
+  	  font-size: 20px;
+  	  padding: 10px;
+  	  border: 20px;
+  	}
+  	
+  	input[type="submit"]{
+  	  background: green;
+  	  border: 20px;
+  	  padding: 10px;
+  	  font-size: 20px;
+  	
