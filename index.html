@@ -3,41 +3,46 @@
 	<title>Letisha Rorke</title>
 	<link rel="stylesheet" type="text/css" href="first_style.css">
 	<link rel="stylesheet" href="dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 	<script src="google_analytics.js"></script>
 </head>
 
 <body>
-	<h1>Letisha Rorke</h1>
-	<h3>What is this about</h3>
-	<p>Developing my skills, sign-up to find out more</p>
+  <header>
+    <img src="/image.jpg">
+    <h1>Letisha Rorke</h1>
+    <h2>The traveling SOuth African</h2>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Travel blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
 
-	<h2 id="Languages_title"> Web programming languages</h2>
+ <div class="me">
+  <p>Letisha Rorke, civil engineer and crazy person <span class="right">Letisha</span><br />
+  <small> 
+  	<ul>
+  		<li>I have done... </li>
+  		<li>I am currently doning... </li>
+  	</ul>
+  </small></p>
+</div>
 
-	<ul id="Language_List">
-		<li class="Language_item">Python</li>
-		<li class="Language_item">Ruby on Rails</li>
-		<li class="Language_item">Django</li>
-	</ul>
+<div class="travel">
+  <p>Recent travels to:<span class="right">Rome</span><br />
+  <small>Where I went traveling recently</small></p>
+</div>
+  
+<div class="contact">
+  <p>e-mail address <span class="right">letisha.rorke@gmail.com</span><br />
+  <small>Please send me an e-mail if you wish to find out more or find me on <a href="https://www.facebook.com/letisha.rorke?ref=ts&fref=ts">facebook></a></small></p>
+</div>
 
-	<ul id="to_do">
-		<li> Work on your website</li>
-		<li> Understand github pages</li>
-		<li> Link to other websites</li>
-		<li> Add photos and project title</li>
-	</ul>
-	<input type="email" placeholder="Your email">
-  	<input type="submit">
-  	<h3>Making changes to see if updates in github</h3>
-
-  	<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-56768794-1', 'auto');
-ga('send', 'pageview');
+<script>  
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+  });
 </script>
 
 </body>
