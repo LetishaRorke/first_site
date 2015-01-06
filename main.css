@@ -1,0 +1,93 @@
+/* style for the main page of the website */
+
+/* @media adapation: font size: 1em is the same size as default on the device */
+
+header {
+	text-align: center;
+	background: url("homepic.jpg");    /* can be an image eg. url("image.jpg"); */
+	background-size: cover;
+	/*background-position:center;*/
+	color: white;
+	font-family:helvetica;
+	height: 500px;
+	border: 5px solid white;
+}
+
+h1 {
+	text-align: right; /*centering text elements */
+	/* margin: auto; equal margins around a html element */
+	font-size:3em;
+	font-family:'Londrina Shadow', cursive;
+	color: white;
+	margin: 20px 20px 0 0; /* moves picture relative to screen */
+	padding:100px 0 0 0; /* moves heading relative to background element */
+}
+
+ul {
+	text-align: right;
+	padding: 10px;
+}
+
+img {
+	width:80px;
+}
+
+body {
+	background-color:rgba(0,0,0,0.2);
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: helvetica, sans-serif;
+}
+
+table {
+	background-color:rgba(0,0,0,0.6);
+	text-align: center;
+	padding-top: 20px;
+	/* max-width: 500px; attribute to give to an article element */
+}
+ td {
+ 	padding: 0;
+ 	height:150px;
+ 	width:150px;
+ }
+
+h2 {
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	margin:100px 0 0 0;
+	font-size:1.2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#About {
+	background-image: url("closeup_small.jpg")
+}
+
+.Research{
+	background-image: url("railway_small.jpg")
+}
+
+.Hobbies{
+	background-image: url("walk_small.jpg")
+}
+
+.Travel {
+	background-image: url("travel_small.jpg");
+}
+
+@media (max-width: 500px) {
+	h1{font-size:36px;
+	}
+	li{
+		display:block;
+	}
+
+	td {
+	background: gray;
+	}
+	
+}
